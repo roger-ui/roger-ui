@@ -1,3 +1,12 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=roger-ui&theme=dracula&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=roger-ui&theme=dracula" />
+  </a>
+</div>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=roger-ui&theme=dracula)](https://git.io/streak-stats)
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roger-ui&theme=dracula&hide_progress=true" />
+  </a>
+</div>
+
