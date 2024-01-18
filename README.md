@@ -1,8 +1,6 @@
 
 <div align="left">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=roger-ui&theme=darcula" />
-  </a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=roger-ui&theme=darcula" alt="GitHub Streak" /></a>
 </div>
 
 <div align="left">
