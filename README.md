@@ -1,7 +1,7 @@
 
-<div align="left">
+<!-- <div align="left">
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=roger-ui&theme=darcula" /></a>
-</div>
+</div> -->
 
 <div align="left">
   <a href="https://github.com/anuraghazra/github-readme-stats">
