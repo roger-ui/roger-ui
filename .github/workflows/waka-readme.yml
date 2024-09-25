@@ -1,10 +1,10 @@
 name: Waka Readme
 
 on:
-  # for manual workflow trigger
+  # Manual workflow trigger
   workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC
+    # Runs daily at 12 AM UTC
     - cron: "0 0 * * *"
 
 jobs:
@@ -12,31 +12,31 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      # This action fetches and updates WakaTime stats in your README
-      - uses: athul/waka-readme@master # do NOT replace with anything else
+      # Fetches and updates WakaTime stats in your README
+      - uses: athul/waka-readme@master
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # optional if on profile readme
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Optional, can be omitted if default token is used
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Required
           ### meta
-          API_BASE_URL: https://wakatime.com/api # optional
-          REPOSITORY: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME # optional
+          API_BASE_URL: https://wakatime.com/api # Optional
+          REPOSITORY: roger-ui/roger-ui # Optional
           ### content
-          SHOW_TITLE: true # optional, displays the title "WakaTime Stats"
-          SECTION_NAME: waka # optional, name of the section in the README
-          BLOCKS: -> # optional
-          CODE_LANG: rust # optional
-          TIME_RANGE: all_time # optional, can use last_7_days or last_30_days
-          LANG_COUNT: 10 # optional, shows 10 languages
-          SHOW_TIME: true # optional, shows time spent
-          SHOW_TOTAL: true # optional, shows total coding activity
-          SHOW_MASKED_TIME: false # optional
-          STOP_AT_OTHER: true # optional
-          IGNORED_LANGUAGES: YAML JSON TOML # optional, hides these languages from the display
+          SHOW_TITLE: true # Displays "WakaTime Stats" title
+          SECTION_NAME: waka # Defines section in README
+          BLOCKS: -> # Optional
+          CODE_LANG: markdown # Highlight markdown as code language
+          TIME_RANGE: last_7_days # Time range to display
+          LANG_COUNT: 10 # Shows top 10 languages
+          SHOW_TIME: true # Displays time spent
+          SHOW_TOTAL: true # Shows total coding time
+          SHOW_MASKED_TIME: false # Don't mask time
+          STOP_AT_OTHER: true # Stop display at 'Other' category
+          IGNORED_LANGUAGES: YAML JSON TOML # Ignore these languages
           ### commit
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
-          TARGET_BRANCH: master # optional, default branch to commit to
-          TARGET_PATH: README.md # optional, where the WakaTime stats are inserted
-          COMMITTER_NAME: GitHubActionBot # optional, name of the committer
-          COMMITTER_EMAIL: action-bot@github.com # optional, email of the committer
-          AUTHOR_NAME: YOUR_NAME # optional, your name as the author
-          AUTHOR_EMAIL: YOUR@EMAIL.com # optional, your email address
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics # Commit message
+          TARGET_BRANCH: master # Default branch to commit to
+          TARGET_PATH: README.md # Where the WakaTime stats are inserted
+          COMMITTER_NAME: GitHubActionBot # Committer name
+          COMMITTER_EMAIL: action-bot@github.com # Committer email
+          AUTHOR_NAME: Roger Vargas # Your name
+          AUTHOR_EMAIL: roger3943@gmail.com # Your email
