@@ -9,11 +9,11 @@ on:
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Waka - Readme
     runs-on: ubuntu-latest
     steps:
       # Fetches and updates WakaTime stats in your README
-      - uses: athul/waka-readme@master
+      - uses: athul/athul/waka-readme@v0.3.1
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }} # Optional, can be omitted if default token is used
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Required
@@ -40,3 +40,4 @@ jobs:
           COMMITTER_EMAIL: action-bot@github.com # Committer email
           AUTHOR_NAME: Roger Vargas # Your name
           AUTHOR_EMAIL: roger3943@gmail.com # Your email
+            
