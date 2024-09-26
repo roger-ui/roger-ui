@@ -34,7 +34,7 @@ jobs:
           IGNORED_LANGUAGES: YAML JSON TOML # Ignore these languages
           ### commit
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics # Commit message
-          TARGET_BRANCH: master # Default branch to commit to
+          TARGET_BRANCH: main # Default branch to commit to
           TARGET_PATH: README.md # Where the WakaTime stats are inserted
           COMMITTER_NAME: GitHubActionBot # Committer name
           COMMITTER_EMAIL: action-bot@github.com # Committer email
