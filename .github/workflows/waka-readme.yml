@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Fetches and updates WakaTime stats in your README
-      - uses: roger-ui/roger-ui@main
+      - uses: athul/waka-readme@master
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }} # Optional, can be omitted if default token is used
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Required
