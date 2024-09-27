@@ -23,13 +23,13 @@ jobs:
           SHOW_TITLE: true # Displays "WakaTime Stats" title
           SECTION_NAME: waka # Defines section in README
           BLOCKS: -> # Optional
-          CODE_LANG: markdown # Highlight markdown as code language
+          CODE_LANG: python # Highlight markdown as code language
           TIME_RANGE: last_7_days # Time range to display
           LANG_COUNT: 10 # Shows top 10 languages
           SHOW_TIME: true # Displays time spent
           SHOW_TOTAL: true # Shows total coding time
           SHOW_MASKED_TIME: false # Don't mask time
-          STOP_AT_OTHER: true # Stop display at 'Other' category
+          STOP_AT_OTHER: false # Stop display at 'Other' category
           IGNORED_LANGUAGES: YAML JSON TOML # Ignore these languages
           ### commit
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics # Commit message
