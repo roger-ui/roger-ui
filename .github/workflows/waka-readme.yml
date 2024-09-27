@@ -8,7 +8,7 @@ on:
 
 jobs:
   update-readme:
-    name: Waka - Readme
+    name: Waka with metrics
     runs-on: ubuntu-latest
     steps:
       # Fetches and updates WakaTime stats in your README
