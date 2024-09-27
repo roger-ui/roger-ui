@@ -36,12 +36,6 @@ CSV                   0 secs          -------------------------   00.46 %
 
 <!--END_SECTION:waka-->
 
-<div align="left">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roger-ui&theme=dracula&hide_progress=true" />
-  </a>
-</div>
-
 <p>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=roger-ui.readme">
   <a href="https://wakatime.com/@414b838a-bc13-4508-ac90-319adbed5945"><img src="https://wakatime.com/badge/user/414b838a-bc13-4508-ac90-319adbed5945.svg" /></a>
