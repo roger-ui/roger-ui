@@ -1,10 +1,16 @@
 **Stack** 
 
 [![Unity](https://img.shields.io/badge/Unity-%23000000.svg?logo=unity&logoColor=white)](#)
+[![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
 [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#)
+[![Ableton](https://img.shields.io/badge/Ableton-%23000000.svg?logo=abletonlive&logoColor=white)](#)
+<img width="20" height="20" src="https://img.icons8.com/fluency/48/matlab.png" alt="matlab"/> ![MATLAB](https://img.shields.io/badge/MATLAB-%23FF6600.svg?logo=mathworks&logoColor=white)
+
+
+
 
 **Environment**
 
