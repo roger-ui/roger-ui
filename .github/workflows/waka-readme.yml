@@ -30,7 +30,7 @@ jobs:
           SHOW_TOTAL: true # Shows total coding time
           SHOW_MASKED_TIME: false # Don't mask time
           STOP_AT_OTHER: false # Stop display at 'Other' category
-          IGNORED_LANGUAGES: YAML JSON TOML # Ignore these languages
+          IGNORED_LANGUAGES: Other YAML JSON TOML # Ignore these languages
           ### commit
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics # Commit message
           TARGET_BRANCH: main # Default branch to commit to
