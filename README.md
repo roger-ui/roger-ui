@@ -28,11 +28,15 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 27 September 2024 - To: 03 October 2024
+From: 04 September 2024 - To: 03 October 2024
 
-Total Time: 0 secs
+Total Time: 25 mins
 
-Markdown   0 secs          -------------------------   00.47 %
+Markdown              22 mins         >>-----------------------   08.85 %
+C++                   1 min           -------------------------   00.47 %
+Python                0 secs          -------------------------   00.38 %
+Sublime Text Config   0 secs          -------------------------   00.20 %
+CSV                   0 secs          -------------------------   00.09 %
 ```
 
 <!--END_SECTION:waka-->
