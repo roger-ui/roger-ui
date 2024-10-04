@@ -24,7 +24,7 @@ jobs:
           SECTION_NAME: waka # Defines section in README
           BLOCKS: -> # Optional
           CODE_LANG: python # Highlight markdown as code language
-          TIME_RANGE: last_7_days # Time range to display
+          TIME_RANGE: last_30_days # Time range to display
           LANG_COUNT: 10 # Shows top 10 languages
           SHOW_TIME: true # Displays time spent
           SHOW_TOTAL: true # Shows total coding time
