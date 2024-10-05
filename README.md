@@ -28,15 +28,16 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 04 September 2024 - To: 03 October 2024
+From: 05 September 2024 - To: 04 October 2024
 
-Total Time: 25 mins
+Total Time: 59 mins
 
-Markdown              22 mins         >>-----------------------   08.85 %
-C++                   1 min           -------------------------   00.47 %
-Python                0 secs          -------------------------   00.38 %
-Sublime Text Config   0 secs          -------------------------   00.20 %
-CSV                   0 secs          -------------------------   00.09 %
+C#                    27 mins         >>-----------------------   07.87 %
+Markdown              22 mins         >>-----------------------   06.51 %
+Python                6 mins          -------------------------   01.96 %
+C++                   1 min           -------------------------   00.35 %
+Sublime Text Config   0 secs          -------------------------   00.15 %
+CSV                   0 secs          -------------------------   00.07 %
 ```
 
 <!--END_SECTION:waka-->
