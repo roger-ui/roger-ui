@@ -28,18 +28,18 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 15 September 2024 - To: 14 October 2024
+From: 16 September 2024 - To: 15 October 2024
 
-Total Time: 3 hrs 32 mins
+Total Time: 4 hrs 48 mins
 
-C#                    2 hrs 37 mins   >>-----------------------   07.66 %
-Markdown              38 mins         -------------------------   01.88 %
-Python                6 mins          -------------------------   00.33 %
-Blender               6 mins          -------------------------   00.32 %
-C++                   1 min           -------------------------   00.06 %
+C#                    3 hrs 53 mins   >>-----------------------   09.68 %
+Markdown              38 mins         -------------------------   01.61 %
+Python                6 mins          -------------------------   00.28 %
+Blender               6 mins          -------------------------   00.27 %
+C++                   1 min           -------------------------   00.05 %
 Sublime Text Config   0 secs          -------------------------   00.02 %
-CSV                   0 secs          -------------------------   00.01 %
 Batchfile             0 secs          -------------------------   00.01 %
+CSV                   0 secs          -------------------------   00.01 %
 ```
 
 <!--END_SECTION:waka-->
