@@ -26,22 +26,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 
 <!--START_SECTION:waka-->
-
-```python
-From: 09 October 2024 - To: 07 November 2024
-
-Total Time: 9 hrs 7 mins
-
-C#          4 hrs 25 mins   >------------------------   05.16 %
-Markdown    3 hrs 3 mins    >------------------------   03.57 %
-Blender     1 hr 21 mins    -------------------------   01.58 %
-XML         7 mins          -------------------------   00.14 %
-Binary      5 mins          -------------------------   00.11 %
-Groff       4 mins          -------------------------   00.09 %
-Batchfile   0 secs          -------------------------   00.01 %
-Python      0 secs          -------------------------   00.00 %
-```
-
 <!--END_SECTION:waka-->
 
 <p>
