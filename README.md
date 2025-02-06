@@ -28,15 +28,15 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 25 September 2024 - To: 04 February 2025
+From: 25 September 2024 - To: 05 February 2025
 
-Total Time: 33 hrs 24 mins
+Total Time: 33 hrs 28 mins
 
-C#                    13 hrs 50 mins  >------------------------   05.02 %
-Python                11 hrs 26 mins  >------------------------   04.15 %
-Markdown              3 hrs 48 mins   -------------------------   01.38 %
-C++                   1 hr 41 mins    -------------------------   00.61 %
-Blender               1 hr 21 mins    -------------------------   00.49 %
+C#                    13 hrs 50 mins  >------------------------   04.92 %
+Python                11 hrs 26 mins  >------------------------   04.07 %
+Markdown              3 hrs 52 mins   -------------------------   01.38 %
+C++                   1 hr 41 mins    -------------------------   00.60 %
+Blender               1 hr 21 mins    -------------------------   00.48 %
 CSV                   17 mins         -------------------------   00.10 %
 Batchfile             8 mins          -------------------------   00.05 %
 CMake                 8 mins          -------------------------   00.05 %
