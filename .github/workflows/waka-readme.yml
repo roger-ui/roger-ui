@@ -2,8 +2,8 @@ name: Waka Readme
 
 on:
   schedule:
-    # Runs every 4 hours
-    - cron: '0 */4 * * *'
+    # Runs every 4 hours from Monday (1) to Friday (5)
+    - cron: '0 */4 * * 1-5'
   workflow_dispatch:
 
 jobs:
@@ -11,32 +11,27 @@ jobs:
     name: Waka with metrics
     runs-on: ubuntu-latest
     steps:
-      # Fetches and updates WakaTime stats in your README
       - uses: athul/waka-readme@master
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Optional, can be omitted if default token is used
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Required
-          ### meta
-          API_BASE_URL: https://wakatime.com/api # Optional
-          REPOSITORY: roger-ui/roger-ui # Optional
-          ### content
-          SHOW_TITLE: true # Displays "WakaTime Stats" title
-          SECTION_NAME: waka # Defines section in README
-          BLOCKS: -> # Optional
-          CODE_LANG: python # Highlight markdown as code language
-          TIME_RANGE: all_time # Time range to display
-          LANG_COUNT: 10 # Shows top 10 languages
-          SHOW_TIME: true # Displays time spent
-          SHOW_TOTAL: true # Shows total coding time
-          SHOW_MASKED_TIME: false # Don't mask time
-          STOP_AT_OTHER: false # Stop display at 'Other' category
-          IGNORED_LANGUAGES: Other YAML JSON TOML # Ignore these languages
-          ### commit
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics # Commit message
-          TARGET_BRANCH: main # Default branch to commit to
-          TARGET_PATH: README.md # Where the WakaTime stats are inserted
-          COMMITTER_NAME: GitHubActionBot # Committer name
-          COMMITTER_EMAIL: action-bot@github.com # Committer email
-          AUTHOR_NAME: Roger Vargas # Your name
-          AUTHOR_EMAIL: roger3943@gmail.com # Your email
-            
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} 
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} 
+          API_BASE_URL: https://wakatime.com/api 
+          REPOSITORY: roger-ui/roger-ui 
+          SHOW_TITLE: true 
+          SECTION_NAME: waka 
+          BLOCKS: -> 
+          CODE_LANG: python 
+          TIME_RANGE: all_time 
+          LANG_COUNT: 10 
+          SHOW_TIME: true 
+          SHOW_TOTAL: true 
+          SHOW_MASKED_TIME: false 
+          STOP_AT_OTHER: false 
+          IGNORED_LANGUAGES: Other YAML JSON TOML 
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics 
+          TARGET_BRANCH: main 
+          TARGET_PATH: README.md 
+          COMMITTER_NAME: GitHubActionBot 
+          COMMITTER_EMAIL: action-bot@github.com 
+          AUTHOR_NAME: Roger Vargas 
+          AUTHOR_EMAIL: roger3943@gmail.com 
