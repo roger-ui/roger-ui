@@ -28,19 +28,19 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 25 September 2024 - To: 31 March 2025
+From: 25 September 2024 - To: 01 April 2025
 
-Total Time: 130 hrs 18 mins
+Total Time: 130 hrs 57 mins
 
-Python                65 hrs 46 mins  >>>>>>>>-----------------   33.99 %
-C#                    30 hrs 19 mins  >>>>---------------------   15.67 %
-Markdown              17 hrs          >>-----------------------   08.79 %
-C++                   3 hrs 38 mins   -------------------------   01.88 %
-Blender               2 hrs 6 mins    -------------------------   01.09 %
-Text                  1 hr 33 mins    -------------------------   00.81 %
+Python                66 hrs 25 mins  >>>>>>>>>----------------   34.15 %
+C#                    30 hrs 19 mins  >>>>---------------------   15.59 %
+Markdown              17 hrs          >>-----------------------   08.75 %
+C++                   3 hrs 38 mins   -------------------------   01.87 %
+Blender               2 hrs 6 mins    -------------------------   01.08 %
+Text                  1 hr 33 mins    -------------------------   00.80 %
 Groff                 1 hr 33 mins    -------------------------   00.80 %
 Jupyter Notebook      1 hr 28 mins    -------------------------   00.76 %
-Batchfile             1 hr 24 mins    -------------------------   00.73 %
+Batchfile             1 hr 24 mins    -------------------------   00.72 %
 ```
 
 <!--END_SECTION:waka-->
