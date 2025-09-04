@@ -28,19 +28,19 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 25 September 2024 - To: 02 September 2025
+From: 25 September 2024 - To: 03 September 2025
 
-Total Time: 211 hrs 40 mins
+Total Time: 214 hrs 23 mins
 
-Python                74 hrs 6 mins   >>>>>>>------------------   26.50 %
-C++                   35 hrs 51 mins  >>>----------------------   12.82 %
-C#                    33 hrs 36 mins  >>>----------------------   12.02 %
-Markdown              30 hrs 21 mins  >>>----------------------   10.85 %
-TeX                   18 hrs 23 mins  >>-----------------------   06.58 %
-Batchfile             2 hrs 37 mins   -------------------------   00.94 %
-PowerShell            2 hrs 36 mins   -------------------------   00.93 %
+Python                74 hrs 6 mins   >>>>>>>------------------   26.22 %
+C++                   35 hrs 51 mins  >>>----------------------   12.69 %
+C#                    33 hrs 36 mins  >>>----------------------   11.89 %
+Markdown              30 hrs 30 mins  >>>----------------------   10.80 %
+TeX                   20 hrs 47 mins  >>-----------------------   07.35 %
+Batchfile             2 hrs 37 mins   -------------------------   00.93 %
+PowerShell            2 hrs 36 mins   -------------------------   00.92 %
 Blender               2 hrs 6 mins    -------------------------   00.75 %
-Text                  1 hr 48 mins    -------------------------   00.65 %
+Text                  1 hr 48 mins    -------------------------   00.64 %
 ```
 
 <!--END_SECTION:waka-->
